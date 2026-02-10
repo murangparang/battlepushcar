@@ -34,14 +34,14 @@ namespace BattleCarSumo.Data
         public float roundResultDisplayDuration = 3f;
 
         [Header("=== 경기장 설정 ===")]
-        [Tooltip("경기장 반지름")]
-        public float arenaRadius = 15f;
+        [Tooltip("경기장 반지름 (29m = 클래식 아레나)")]
+        public float arenaRadius = 29f;
 
         [Tooltip("경기장 외곽 낙하 판정 높이")]
         public float fallThreshold = -5f;
 
         [Tooltip("스폰 포인트 간 거리 (중심으로부터)")]
-        public float spawnDistanceFromCenter = 8f;
+        public float spawnDistanceFromCenter = 15f;
 
         [Header("=== 체급별 물리 설정 ===")]
         public WeightClassPhysics lightClass = new WeightClassPhysics

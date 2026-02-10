@@ -53,6 +53,16 @@ namespace BattleCarSumo.Data
     }
 
     /// <summary>
+    /// 아레나 타입
+    /// </summary>
+    public enum ArenaType
+    {
+        Classic = 0,   // 원형 기본 아레나
+        Square = 1,    // 사각형 + 굴곡 바닥
+        Punching = 2   // 대형 + 펀칭머신 4개
+    }
+
+    /// <summary>
     /// 라운드 결과
     /// </summary>
     public enum RoundResult
